@@ -75,7 +75,7 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.15.1'
 
     //anhance
-    implementation 'com.github.cinkhangin:anhance:1.2.1'
+    implementation 'com.github.cinkhangin:anhance:1.2.2'
 }
 
 // Allow references to generated code
