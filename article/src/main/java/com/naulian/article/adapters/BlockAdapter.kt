@@ -38,7 +38,7 @@ class BlockAdapter : ListAdapter<Block, BlockAdapter.ItemViewHolder>(ItemDiffCal
         fun bind(position: Int) {
             val item = getItem(position)
             val imageUri = item.imageUri(context)
-            val colored = Glow.highlight(item.code, CodeTheme.kotlinLight)
+            val colored = Glow.highlight(item.code, item.language, CodeTheme.kotlinLight)
 
             binding.apply {
                 //setVisibility
